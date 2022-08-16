@@ -1,0 +1,21 @@
+<view class="searchbar">
+  <view class="content">
+    <image src="https://i.imgur.com/47ZTAKJ.png" class="search-icon"></image>
+    <input type="text" placeholder-class="phClass" placeholder="搜索或输入网址"/>
+
+    <input
+      bindinput="handleInput"
+      bindconfirm="handleConfirm"
+      type="text"
+      value="{{inputValue}}" 
+      placeholder="{{placeholder}}" 
+      class="input"
+      confirm-type="search"
+    ></input>
+  
+  </view>
+  <view wx:if="{{inputValue}}" bindtap="handleTextbtnClick" class="text-btn">取消</view>
+  <image src="https://i.imgur.com/jhBfzbp.png" class="INFORMATION-icon"></image>
+  
+</view>
+<view><image src="https://i.imgur.com/wyBZd1W.png" class="fire"></image></view>
