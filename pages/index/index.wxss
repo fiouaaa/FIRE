@@ -1,10 +1,10 @@
 .searchbar {
-  height: 88rpx;
-  padding: 20rpx 30rpx;
+  height: 80rpx;
+  padding: 30rpx 100rpx 30rpx 30rpx;
   display: flex;
   background: -webkit-radial-gradient(top,#3b3275,#6f2aa1);
   position: fixed;
-  left: 0;
+  left: 10;
   bottom: 0;
   
 }
@@ -21,28 +21,28 @@
 }
 .INFORMATION-icon{
   position: fixed;
-  width: 20rpx;
-  height: 50rpx;
+  width: 80rpx;
+  height: 70rpx;
   margin-bottom: -6rpx;
   margin-left: 1rpx;
-  left: 310px;
-  bottom: 15px;
+  left: 280px;
+  bottom: 12px;
 }
 .search-icon {
   width: 34rpx;
-  height: 34rpx;
+  height: 30rpx;
   margin-bottom: -4rpx;
 }
 .input {
   flex: 1;
-  margin: 0 20rpx;
+  margin:20rpx;
 }
 .delete-icon {
   width: 40rpx;
   height: 40rpx;
 }
 .text-btn {
-  margin-left: 24rpx;
+  margin-left: 20rpx;
   height: 88rpx;
   line-height: 88rpx;
   font-size: 32rpx;
@@ -58,7 +58,12 @@ page{
   font-family:cursive;
 }
 .fire{
-height: 50px;
-width: 200px;
-position: fixed;
+height: 55px;
+width: 300px;
+left: 5px;
+margin-left: 12px;
+}
+.word{
+  font-family:cursive;
+  font-size: 20px;
 }
