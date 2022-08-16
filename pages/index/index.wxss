@@ -1,6 +1,6 @@
 .searchbar {
   height: 80rpx;
-  padding: 30rpx 100rpx 30rpx 30rpx;
+  padding: 30rpx 110rpx 30rpx 30rpx;
   display: flex;
   background: -webkit-radial-gradient(top,#3b3275,#6f2aa1);
   position: fixed;
@@ -22,11 +22,11 @@
 .INFORMATION-icon{
   position: fixed;
   width: 80rpx;
-  height: 65rpx;
+  height: 50rpx;
   margin-bottom: -6rpx;
   margin-left: 1rpx;
   left: 280px;
-  bottom: 14px;
+  bottom: 16px;
 }
 .search-icon {
   width: 34rpx;
@@ -48,6 +48,7 @@
   font-size: 32rpx;
   font-family: PingFangSC;
   font-weight: 400;
+  color: white;
   
 }
 

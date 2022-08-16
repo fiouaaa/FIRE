@@ -1,7 +1,7 @@
 //index.js
 //获取应用实例
 const app = getApp()
-Page({
+Page({    
   data: {
     cond: false, //判断标志：检测是否存在多个匹配信息
     searchKey: "",//监控搜索框输入信息
@@ -10,6 +10,7 @@ Page({
     keyWord2: "",//第二匹配信息
     description2: "" //信息答案2
   },
+  
 
   /**
    * 
@@ -105,8 +106,9 @@ Page({
    */
   onShareAppMessage() {
     return {
-      title: '微信搜索案例'
+      title: '网址搜索'
     }
   }
 })
+
 
