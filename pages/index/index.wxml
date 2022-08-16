@@ -19,6 +19,7 @@
   
 </view>
 <view><image src="https://i.imgur.com/vL8vZkr.png" class="fire"></image></view>
-<text class="word">Firefox 会在关闭所有隐私标签页或退出应用时，清除您的搜索记录与浏览历史。虽然这样仍无法对网站或电信运营商匿名，但还是可以简单地防止其他使用此设备的人得知您的上网活动。
+<text class="word">Firefox 会在关闭所有隐私标签页或退出应用时，清除您的搜索记录与浏览历史。虽然这样仍无法对网站或电信运营商匿名，但还是可以简单地防止其他使用此设备的人得知您的上网活动。</text>
+<text class="wordd">
 
 正确认识隐私浏览功能</text>

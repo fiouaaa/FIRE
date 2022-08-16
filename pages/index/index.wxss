@@ -22,11 +22,11 @@
 .INFORMATION-icon{
   position: fixed;
   width: 80rpx;
-  height: 70rpx;
+  height: 65rpx;
   margin-bottom: -6rpx;
   margin-left: 1rpx;
   left: 280px;
-  bottom: 12px;
+  bottom: 14px;
 }
 .search-icon {
   width: 34rpx;
@@ -65,5 +65,11 @@ margin-left: 12px;
 }
 .word{
   font-family:cursive;
-  font-size: 20px;
+  font-size: 15px;
+  
+}
+.wordd{
+  font-family:cursive;
+  font-size: 15px;
+  text-decoration-line: underline;
 }
