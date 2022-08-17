@@ -4,8 +4,8 @@
   display: flex;
   background: -webkit-radial-gradient(top,#3b3275,#6f2aa1);
   position: fixed;
-  left: 10;
   bottom: 0;
+  width: 90%;
 }
 .content {
   height: 88rpx;
@@ -27,7 +27,7 @@
   left: 30px;
   bottom: -9px;
   display: flex;
-  margin-right: 2px;
+  margin-right: 23px;
 }
 .search-icon {
   width: 34rpx;
@@ -61,17 +61,14 @@ page{
 }
 .fire{
 height: 55px;
-width: 300px;
+width: 380px;
 display: flex;
-margin-left: 15%;
+margin-left: 0%;
 position: relative;
-
-
 }
 .word{
-  font-family:cursive;
+  font-family:cursive; 
   font-size: 15px;
-  
 }
 .wordd{
   font-family:cursive;

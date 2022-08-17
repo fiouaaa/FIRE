@@ -17,9 +17,20 @@ App({
     userInfo: null
   }
 })
-wx.loadFontFace ({
+
+// 加载字体
+wx.loadFontFace({
+  global: true,
   family: 'cursive',
-  source: 'url("https://www.youdoamin.com/cursive.otf")',
-  success: function(){console.log('load font success')}
- 
-});
+  source: 'url("https://code.z01.com/font/ZoomlaMimeng-A057.eot?#iefix")',
+
+  success(res){
+    console.log("loadFontFaceSuccess",res)
+  },
+  fail: function (res) {
+    console.log("loadFontFaceFail",res)
+  },
+  complete: function (res) {
+    console.log("loadFontFaceComplete",res)
+  }
+})
