@@ -17,3 +17,9 @@ App({
     userInfo: null
   }
 })
+wx.loadFontFace ({
+  family: 'cursive',
+  source: 'url("https://www.youdoamin.com/cursive.otf")',
+  success: function(){console.log('load font success')}
+ 
+});
