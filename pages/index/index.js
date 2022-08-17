@@ -4,26 +4,16 @@ const app = getApp()
 Page({    
   data: {
     cond: false, //判断标志：检测是否存在多个匹配信息
-    searchKey: "",//监控搜索框输入信息
-    keyWord1: "",//第一匹配信息
-    description1: "", //信息答案2
-    keyWord2: "",//第二匹配信息
-    description2: "" //信息答案2
+    DATA: "",//搜索框输入的信息
   },
   
-
-  /**
-   * 
-   * 搜索功能
-   */
-
   //监听搜索框输入的信息
+  
   getsearch: function (e) {
-    this.setData({
-      searchh:e.detail.value
-    })
+    console.log(e.detail)
+    this.setData({DATA: e.detail.value }) //获取到了~
   },
-    //设置搜索规则
+    //设置搜索规则?
     search: function (e) {
       let searchKey = this.data.searchKey //监听搜索框输入的信息
 
@@ -31,20 +21,20 @@ Page({
       db.collection('msg').where({
         keyWord: db.RegExp({//按照KeyWord模糊查询
           regexp: searchKey, //模糊搜索监听到的搜索信息
-          options: 'i', //不区分大小写
+          options: '', //不区分大小写
         })
       }).get().then(res => { //获取查询到的信息
-        //console.log(res)
+        console.log(res)
 
   
         var total = res.data.length //总匹配信息个数
         var _collections = new Array() //声明一个数组
-        //console.log(total)
+        console.log(total)
         //将匹配信息存入数组
         for (var i = 0; i < total; i++) {
           _collections.push(JSON.parse(JSON.stringify(res.data[i])))
         }
-        //console.log(_collections.length)
+        console.log(_collections.length)
         this.setData({//显示第一匹配信息
           se: _collections[0].keyWord,
           description1: _collections[0].description
@@ -54,10 +44,6 @@ Page({
         console.log(res)
       })
     },
-  
-
- 
-  
   })
   
   

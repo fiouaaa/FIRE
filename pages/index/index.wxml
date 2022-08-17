@@ -14,7 +14,6 @@
     ></input>
   
   </view>
-  <view wx:if="{{inputValue}}" bindtap="handleTextbtnClick" class="text-btn">取消</view>
   <image src="https://i.imgur.com/Q7RTzas.png" class="INFORMATION-icon"></image>
   
 </view>
