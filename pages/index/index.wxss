@@ -71,7 +71,7 @@ position: relative;
   font-size: 15px;
 }
 .wordd{
-  font-family:cursive;
+  font-family:'cursive';
   font-size: 15px;
   text-decoration-line: underline;
 }

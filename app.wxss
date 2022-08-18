@@ -6,3 +6,12 @@
    justify-content: space-between; 
    padding: 200rpx 0; 
    box-sizing: border-box; }
+
+   @font-face {
+    font-family: 'cursive';
+    src: url("https://code.z01.com/font/zFont2.ttf")format('truetype');
+  }
+  
+  .cursive {
+    font-family: 'cursive' !important;
+  }
