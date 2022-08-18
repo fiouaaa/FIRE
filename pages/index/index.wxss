@@ -65,6 +65,7 @@ width: 380px;
 display: flex;
 margin-left: 0%;
 position: relative;
+max-width: 100%;
 }
 .word{
   font-family:"cursive"; 
