@@ -57,7 +57,7 @@ page{
   background: -webkit-linear-gradient(top,#3b3275,#6f2aa1);
 }
 .phClass{
-  font-family:cursive;
+  font-family:'cursive';
 }
 .fire{
 height: 55px;
@@ -67,7 +67,7 @@ margin-left: 0%;
 position: relative;
 }
 .word{
-  font-family:cursive; 
+  font-family:"cursive"; 
   font-size: 15px;
 }
 .wordd{
